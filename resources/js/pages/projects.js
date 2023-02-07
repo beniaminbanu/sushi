@@ -1,0 +1,10 @@
+$(document).ready(function () {
+
+    $('header .option ul li:nth-child(2) a').addClass('active-page');
+    $('.burger-menu li:nth-child(2) a').addClass('active-page');
+    
+    $('.select-products').select2({
+        placeholder: "Select a state"
+    });
+
+});

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="23.969" height="23.969" viewBox="0 0 23.969 23.969">
+  <defs>
+    <style>
+      .cls-1 {
+        filter: url(#filter);
+      }
+
+      .cls-2 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+    </style>
+    <filter id="filter" filterUnits="userSpaceOnUse">
+      <feFlood result="flood" flood-color="#fff"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="burger_menu" data-name="burger menu" class="cls-1">
+    <path id="Rectangle_5_copy_4" data-name="Rectangle 5 copy 4" class="cls-2" d="M82.456,78.908l-20.5-20.391a1.7,1.7,0,0,0-2.453.041,1.828,1.828,0,0,0,.044,2.531l20.5,20.392a1.7,1.7,0,0,0,2.456-.039A1.832,1.832,0,0,0,82.456,78.908Z" transform="translate(-59.031 -58.031)"/>
+    <path id="Rectangle_5_copy_5" data-name="Rectangle 5 copy 5" class="cls-2" d="M59.543,78.908l20.5-20.391a1.7,1.7,0,0,1,2.456.041,1.829,1.829,0,0,1-.046,2.531l-20.5,20.392a1.7,1.7,0,0,1-2.453-.039A1.83,1.83,0,0,1,59.543,78.908Z" transform="translate(-59.031 -58.031)"/>
+  </g>
+</svg>

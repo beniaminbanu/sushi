@@ -1,0 +1,287 @@
+#wrapper {
+    background-color: var(--main-color-100);
+}
+
+.hero {
+    padding: 270px 0px 0px 140px;
+    background-image: url("/img/hero-products.png");
+    background-repeat: no-repeat;
+    background-position: top 115px right;
+    background-size: initial;
+    position: relative;
+    .gradient {
+        position: absolute;
+        top: 0;
+        right: 0;
+        max-width: 100%;
+        pointer-events: none;
+    }
+    .title {
+        padding: 0 70px;
+        h1 {
+            font-size: 72px;
+            font-family: var(--golanoBold-font);
+            line-height: 80px;
+            color: var(--white-color);
+            text-transform: capitalize;
+            text-align: center;
+            span {
+                color: var(--main-color-200);
+            }
+        }
+        p {
+            font-size: 18px;
+            font-family: var(--golanoSemiBold-font);
+            line-height: 32px;
+            color: var(--white-color);
+            text-align: center;
+            margin-top: 45px;
+            margin-bottom: 50px;
+        }
+    }
+    .bar-hero {
+        border-top: 1px solid var(--main-border-100);
+        border-bottom: 1px solid var(--main-border-100);
+        padding: 35px 70px;
+        .content {
+            max-width: 1175px;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            ul {
+                display: flex;
+                li {
+                    .option {
+                        font-size: 18px;
+                        font-family: var(--golanoSemiBold-font);
+                        line-height: 32px;
+                        color: var(--white-color);
+                        text-transform: capitalize;
+                        transition: all 350ms ease-out;
+                        cursor: pointer;
+                        &:hover {
+                            color: var(--main-color-200);
+                        }
+                    }
+                    &:not(:last-child) {
+                        .option {
+                            margin-right: 50px;
+                        }
+                    }
+                }
+            }
+            .all-projects {
+                font-size: 18px;
+                font-family: var(--golanoSemiBold-font);
+                line-height: 32px;
+                color: var(--main-color-900);
+                cursor: pointer;
+                transition: all 350ms ease-out;
+                &:hover {
+                    color: var(--main-color-400);
+                }
+            }
+        }
+    }
+
+    @media (max-width: 1199px) {
+        padding: 105px 0px 0px 56px;
+    }
+
+    @media (max-width: 991px) {
+        padding-left: 0px;
+        background-image: url("/img/hero-products-mobile.png");
+        background-size: cover;
+        background-position: top 70px right;
+        .title {
+            padding: 0 20px;
+            h1 {
+                font-size: 54px;
+                line-height: 64px;
+            }
+            p {
+                margin-top: 30px;
+            }
+        }
+        .bar-mobile {
+            .select2-container {
+                min-width: 100%;
+                .select2-selection {
+                    height: 70px;
+                    background-color: transparent;
+                    border: none;
+                    border-top: 1px solid var(--main-border-100);
+                    border-bottom: 1px solid var(--main-border-100);
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    padding: 0 20px;
+                    &[aria-expanded="true"] {
+                        .select2-selection__arrow {
+                            transform: rotate(-180deg);
+                        }
+                    }
+                    .select2-selection__rendered {
+                        font-size: 18px;
+                        font-family: var(--golanoSemiBold-font);
+                        line-height: 32px;
+                        color: var(--main-color-900);
+                        padding: 0;
+                    }
+                    .select2-selection__arrow {
+                        position: relative;
+                        &::before {
+                            content: "";
+                            width: 10px;
+                            height: 2px;
+                            background-color: var(--white-color);
+                            position: absolute;
+                            top: 50%;
+                            transform: rotate(45deg) translateX(-50%);
+                            left: 5px;
+                        }
+                        &::after {
+                            content: "";
+                            width: 10px;
+                            height: 2px;
+                            background-color: var(--white-color);
+                            position: absolute;
+                            top: 50%;
+                            transform: rotate(135deg) translateX(-50%);
+                            right: 5px;
+                        }
+                        b {
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    @media (max-width: 575px) {
+        .title {
+            padding: 0 17px;
+            h1 {
+                font-size: 36px;
+                line-height: 48px;
+            }
+            p {
+                font-size: 16px;
+                line-height: 24px;
+            }
+        }
+        .bar-mobile {
+            .select2-container {
+                .select2-selection {
+                    padding: 0 17px;
+                }
+            }
+        }
+    }
+
+    @media (max-width: 375px) {
+        background-size: contain;
+    }
+}
+
+//select2 when is open
+.select2-container--open {
+    .select2-dropdown--below {
+        background-color: var(--main-color-100);
+        border: 1px solid var(--main-border-100);
+        font-size: 18px;
+        font-family: var(--golanoSemiBold-font);
+        line-height: 32px;
+        color: var(--white-color);
+        .select2-results__option--highlighted {
+            &.select2-results__option--selectable {
+                background-color: var(--main-color-800);
+            }
+        }
+    }
+}
+
+.about-us {
+    padding: 105px 0 255px 140px;
+    background-image: url("/img/projects-background.png");
+    background-repeat: no-repeat;
+    background-position: top 85px right;
+    background-size: initial;
+    position: relative;
+    .content {
+        padding: 0 70px;
+    }
+    .title {
+        width: 1160px;
+        max-width: 100%;
+        margin: auto;
+        h1 {
+            font-size: 48px;
+            font-family: var(--golanoMedium-font);
+            line-height: 64px;
+            color: var(--white-color);
+            text-transform: capitalize;
+            margin-bottom: 60px;
+        }
+    }
+    .container-custome {
+        width: 1400px;
+        max-width: 100%;
+        margin: auto;
+    }
+
+    .btn-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+    }
+    .layer-gradient {
+        width: auto;
+        max-width: 100%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        pointer-events: none;
+    }
+
+    @media (max-width: 1199px) {
+        padding: 105px 0 255px 56px;
+    }
+
+    @media (max-width: 991px) {
+        padding: 60px 0 90px;
+        padding-left: 0px;
+        background-image: url("/img/projects-background-mobile.png");
+        background-size: cover;
+        background-position: top 70px right;
+        .content {
+            padding: 0 20px;
+        }
+        .title {
+            h1 {
+                font-size: 36px;
+                line-height: 50px;
+                text-align: center;
+                margin-bottom: 35px;
+            }
+        }
+    }
+
+    @media (max-width: 575px) {
+        .content {
+            padding: 0 17px;
+        }
+        .title {
+            h1 {
+                font-size: 24px;
+                line-height: 36px;
+            }
+        }
+    }
+
+    @media (max-width: 375px) {
+        background-size: contain;
+    }
+}

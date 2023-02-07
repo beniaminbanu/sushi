@@ -1,0 +1,60 @@
+
+@font-face {
+    font-family: 'Galano Grotesque-SemiBold';
+    src: url('/fonts/GalanoGrotesque-SemiBold.eot');
+    src: url('/fonts/GalanoGrotesque-SemiBold.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/GalanoGrotesque-SemiBold.woff2') format('woff2'),
+    url('/fonts/GalanoGrotesque-SemiBold.woff') format('woff'),
+    url('/fonts/GalanoGrotesque-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Galano Grotesque-Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Galano Grotesque Regular'), url('/fonts/GalanoGrotesqueRegular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Galano Grotesque-Medium';
+    src: url('/fonts/GalanoGrotesque-Medium.eot');
+    src: url('/fonts/GalanoGrotesque-Medium.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/GalanoGrotesque-Medium.woff2') format('woff2'),
+    url('/fonts/GalanoGrotesque-Medium.woff') format('woff'),
+    url('/fonts/GalanoGrotesque-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+@font-face {
+    font-family: 'Galano Grotesque-Bold';
+    src: url('/fonts/GalanoGrotesque-Bold.eot');
+    src: url('/fonts/GalanoGrotesque-Bold.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/GalanoGrotesque-Bold.woff2') format('woff2'),
+    url('/fonts/GalanoGrotesque-Bold.woff') format('woff'),
+    url('/fonts/GalanoGrotesque-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Galano Grotesque-ExtraBold';
+    src: url('/fonts/GalanoGrotesque-ExtraBold.eot');
+    src: url('/fonts/GalanoGrotesque-ExtraBold.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/GalanoGrotesque-ExtraBold.woff2') format('woff2'),
+    url('/fonts/GalanoGrotesque-ExtraBold.woff') format('woff'),
+    url('/fonts/GalanoGrotesque-ExtraBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+

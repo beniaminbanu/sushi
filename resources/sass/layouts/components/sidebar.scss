@@ -1,0 +1,31 @@
+.sidebar {
+    position: fixed;
+    top: 140px;
+    width: 140px;
+    height: 100vh;
+    border-right: 1px solid var(--main-border-100);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    .social {
+        display: flex;
+        flex-direction: column;
+        a {
+            margin: 35px 0;
+        }
+    }
+}
+
+@media (max-width: 1199px) {
+    .sidebar {
+        width: 56px;
+        top: 56px;
+    }
+}
+
+@media (max-width: 991px) {
+    .sidebar {
+        display: none;
+    }
+}

@@ -1,0 +1,25 @@
+.buttonUp {
+    display: none;
+    @media (max-width: 991px) {
+        &.active-buttonUp {
+            display: block;
+            position: fixed;
+            bottom: 10%;
+            right: 17px;
+            width: 53.99px;
+            height: 53.99px;
+            border-radius: 50%;
+            background-color: var(--main-color-200);
+            background: linear-gradient(145deg, #e62779 24%, #f3596d 44%, #fe8462 70%);
+            z-index: 9;
+            // transition: all 350ms ease-out;
+            .bi {
+                font-size: 32px;
+                color: var(--white-color);
+            }
+            // &:hover {
+            //     transform: scale(0.9);
+            // }
+        }
+    }
+}

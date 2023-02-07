@@ -1,0 +1,1 @@
+$(document).ready((function(){$("header .option ul li:nth-child(3) a").addClass("active-page"),$(".burger-menu li:nth-child(3) a").addClass("active-page"),$(".contact-input").keyup((function(){$(this).val()?$(this).addClass("input-active"):$(this).removeClass("input-active")}))}));

@@ -1,0 +1,16 @@
+.social {
+    svg {
+        cursor: pointer;
+        transition: all 350ms ease-out;
+        &:hover {
+            transform: rotate(-25deg);
+        }
+    }
+    a {
+        display: flex;
+        justify-content: center;
+        &:not(:first-child) {
+            filter: invert(1);
+        }
+    }
+}

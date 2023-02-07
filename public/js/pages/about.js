@@ -1,0 +1,1 @@
+$(document).ready((function(){$("header .option ul li:first a").addClass("active-page"),$(".burger-menu li:first a").addClass("active-page"),$(".owl-our-value").owlCarousel({loop:!0,margin:10,nav:!1,responsive:{0:{items:1},576:{items:2},768:{items:3}}}),$(".owl-hire").owlCarousel({loop:!0,margin:10,nav:!1,responsive:{0:{items:1},576:{items:2},768:{items:3}}})}));
